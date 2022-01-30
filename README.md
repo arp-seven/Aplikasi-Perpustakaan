@@ -1,4 +1,4 @@
-# Aplikasi-Perpustakan
+# Pustaka Corner
 
 Pustaka Corner merupakan sebuah Aplikasi perpustakaan yang  Dibuat Menggunakan VB.Net 2010 dengan Design UI yang menarik dan kekinian
 
