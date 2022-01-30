@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="perpustakaan">
+</Property><Property Name="Solution File" Value="I:\LOST.DIR\perpustakaan [Access Version]\perpustakaan.sln">
+</Property><Property Name="User Options File" Value="I:\LOST.DIR\perpustakaan [Access Version]\perpustakaan.suo">
+</Property><Property Name="Date" Value="Tuesday, April 21, 2020">
+</Property><Property Name="Time" Value="22:55 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="perpustakaan.sln" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan.sln">
+</Event><Event ErrorLevel="0" Project="" Source="perpustakaan.suo" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan.suo">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpustakaan.vbproj" Description="Project file successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpustakaan.vbproj">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpustakaan.vbproj.user" Description="Project user file successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpustakaan.vbproj.user">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\admin.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\admin.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\admin.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\admin.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\ApplicationEvents.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\ApplicationEvents.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\daftar.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\daftar.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\daftar.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\daftar.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\kembalikan.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\kembalikan.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\kembalikan.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\kembalikan.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\login.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\login.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\login.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\login.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet1.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet2.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet2.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet2.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\see.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\see.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\see.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\see.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\nav.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\nav.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\nav.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\nav.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\Splash.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\Splash.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\Splash.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\Splash.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\tambah_buku.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\tambah_buku.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\tambah_buku.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\tambah_buku.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\data_buku.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\data_buku.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\data_buku.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\data_buku.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\My Project\AssemblyInfo.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\My Project\Application.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\My Project\Resources.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\My Project\Settings.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\update_buku.Designer.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\update_buku.Designer.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\update_buku.vb" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\update_buku.vb">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\app.config" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\app.config">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\My Project\Application.myapp" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\My Project\Settings.settings" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet.xsc" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet.xsd" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet.xss" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet.xss">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet1.xsc" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet1.xsc">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet1.xsd" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet1.xsd">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet1.xss" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet1.xss">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\Resources\1.png" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\Resources\1.png">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet2.xsc" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet2.xsc">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet2.xsd" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet2.xsd">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpusDataSet2.xss" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\perpusDataSet2.xss">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\Resources\zz.png" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\Resources\zz.png">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\admin.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\admin.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\daftar.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\daftar.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\kembalikan.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\kembalikan.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\login.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\login.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\see.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\see.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\nav.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\nav.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\Splash.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\Splash.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\tambah_buku.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\tambah_buku.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\data_buku.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\data_buku.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\My Project\Resources.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\update_buku.resx" Description="File successfully backed up as I:\LOST.DIR\perpustakaan [Access Version]\Backup\perpustakaan\update_buku.resx">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpustakaan.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="perpustakaan" Source="perpustakaan\perpustakaan.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="perpustakaan.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="perpustakaan.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="perpustakaan" Source="perpustakaan\perpustakaan.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

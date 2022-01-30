@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="perpusDataSet2" targetNamespace="http://tempuri.org/perpusDataSet2.xsd" xmlns:mstns="http://tempuri.org/perpusDataSet2.xsd" xmlns="http://tempuri.org/perpusDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="perpusConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="perpusConnectionString2 (MySettings)" PropertyReference="ApplicationSettings.perpustakaan.My.MySettings.GlobalReference.Default.perpusConnectionString2" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="peminjamanTableAdapter" GeneratorDataComponentClassName="peminjamanTableAdapter" Name="peminjaman" UserDataComponentName="peminjamanTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="perpusConnectionString2 (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        peminjaman.id_peminjaman,buku.judul, peminjaman.jumlah, peminjaman.pinjam, peminjaman.username, peminjaman.kode_buku, buku.kode_buku AS Expr1
+FROM            ((buku INNER JOIN
+                         peminjaman ON buku.kode_buku = peminjaman.kode_buku) INNER JOIN
+                         [user] ON peminjaman.username = [user].username)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="jumlah" DataSetColumn="jumlah" />
+              <Mapping SourceColumn="pinjam" DataSetColumn="pinjam" />
+              <Mapping SourceColumn="judul" DataSetColumn="judul" />
+              <Mapping SourceColumn="username" DataSetColumn="username" />
+              <Mapping SourceColumn="kode_buku" DataSetColumn="kode_buku" />
+              <Mapping SourceColumn="kembali" DataSetColumn="kembali" />
+              <Mapping SourceColumn="id_peminjaman" DataSetColumn="id_peminjaman" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="perpusConnectionString2 (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        buku.judul, peminjaman.jumlah, peminjaman.pinjam
+FROM            ((buku INNER JOIN
+                         peminjaman ON buku.kode_buku = peminjaman.kode_buku) INNER JOIN
+                         [user] ON peminjaman.username = [user].username)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="judul" DataSetColumn="judul" />
+              <Mapping SourceColumn="jumlah" DataSetColumn="jumlah" />
+              <Mapping SourceColumn="pinjam" DataSetColumn="pinjam" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="perpusDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="perpusDataSet2" msprop:Generator_DataSetName="perpusDataSet2" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="peminjaman" msprop:Generator_UserTableName="peminjaman" msprop:Generator_RowDeletedName="peminjamanRowDeleted" msprop:Generator_RowChangedName="peminjamanRowChanged" msprop:Generator_RowClassName="peminjamanRow" msprop:Generator_RowChangingName="peminjamanRowChanging" msprop:Generator_RowEvArgName="peminjamanRowChangeEvent" msprop:Generator_RowEvHandlerName="peminjamanRowChangeEventHandler" msprop:Generator_TableClassName="peminjamanDataTable" msprop:Generator_TableVarName="tablepeminjaman" msprop:Generator_RowDeletingName="peminjamanRowDeleting" msprop:Generator_TablePropName="peminjaman">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jumlah" msprop:Generator_UserColumnName="jumlah" msprop:Generator_ColumnVarNameInTable="columnjumlah" msprop:Generator_ColumnPropNameInRow="jumlah" msprop:Generator_ColumnPropNameInTable="jumlahColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="pinjam" msprop:Generator_UserColumnName="pinjam" msprop:Generator_ColumnVarNameInTable="columnpinjam" msprop:Generator_ColumnPropNameInRow="pinjam" msprop:Generator_ColumnPropNameInTable="pinjamColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="judul" msprop:Generator_UserColumnName="judul" msprop:Generator_ColumnPropNameInRow="judul" msprop:Generator_ColumnVarNameInTable="columnjudul" msprop:Generator_ColumnPropNameInTable="judulColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="username" msprop:Generator_UserColumnName="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kode_buku" msprop:Generator_UserColumnName="kode_buku" msprop:Generator_ColumnVarNameInTable="columnkode_buku" msprop:Generator_ColumnPropNameInRow="kode_buku" msprop:Generator_ColumnPropNameInTable="kode_bukuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kembali" msprop:Generator_UserColumnName="kembali" msprop:Generator_ColumnVarNameInTable="columnkembali" msprop:Generator_ColumnPropNameInRow="kembali" msprop:Generator_ColumnPropNameInTable="kembaliColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_TablePropName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="judul" msprop:Generator_UserColumnName="judul" msprop:Generator_ColumnPropNameInRow="judul" msprop:Generator_ColumnVarNameInTable="columnjudul" msprop:Generator_ColumnPropNameInTable="judulColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="jumlah" msprop:Generator_UserColumnName="jumlah" msprop:Generator_ColumnPropNameInRow="jumlah" msprop:Generator_ColumnVarNameInTable="columnjumlah" msprop:Generator_ColumnPropNameInTable="jumlahColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="pinjam" msprop:Generator_UserColumnName="pinjam" msprop:Generator_ColumnPropNameInRow="pinjam" msprop:Generator_ColumnVarNameInTable="columnpinjam" msprop:Generator_ColumnPropNameInTable="pinjamColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
